@@ -14,6 +14,8 @@ MassNoteTaker.java
 
 > [!NOTE]
 > Notes will be created in directory "/home/user/Desktop/" + programName
+>
 > Edit the desired directory accordingly
+>
 > May add a popup to prompt for desired location when not lazy
 
