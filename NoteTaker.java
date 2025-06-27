@@ -100,7 +100,7 @@ public class NoteTaker extends GhidraScript {
 	    // Filter for user-defined types (structures, unions, enums, typedefs)  
 	    for (DataType dt : allTypes) {  
 	        if (dt instanceof Structure || dt instanceof Union ||   
-	            dt instanceof Enum || dt instanceof TypeDef) {  
+	            dt instanceof ghidra.program.model.data.Enum || dt instanceof TypeDef) {  
 	            myWriter.write("- "+ dt.getName());
 	            myWriter.write(System.lineSeparator());
 	        }  
